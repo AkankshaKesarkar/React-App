@@ -25,7 +25,7 @@ const Section = () => {
       </div>
       <div className="content">
         <div className="screen-mockup">
-            <img src="dashboard.png" alt="dashboard"></img>
+            <img src="/images/Desktop.png" alt="dashboard"></img>
         </div>
       </div>
     </div>
