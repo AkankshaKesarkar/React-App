@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Logo Styles */
+  .logo img {
+    height: 30px;
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* User Section Styles */
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-section button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px; /* Added margin-left to push button to the right */
+  }
+  
+  .user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px; /* Added margin-left for spacing between button and profile */
+  }

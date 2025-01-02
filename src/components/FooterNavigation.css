@@ -1,0 +1,70 @@
+.footer-navigation {
+    background-color: white(0 92% 6%); /* Dark background */
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navigation-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    grid-gap: 40px; /* Adjust gap between columns */ /* Increased gap for better spacing */
+  }
+  
+  .navigation-column {
+    text-align: left;
+  }
+  
+  .navigation-column h3 {
+    font-size: 20px;
+    font-family: inherit;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    font-size: 13px;
+    color: #918b8b;
+    padding-left: 32px;
+    padding-left: 32px;
+    gap: 1rem;
+  }
+  
+  .navigation-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation-column li {
+    margin-bottom: 10px; /* Increased margin for better spacing */
+  }
+  
+  .navigation-column a {
+    color: rgb(85, 82, 82);
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 48px;
+    width: 1280px;
+    height: 240px;
+    font-family: inherit;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .new-badge {
+    background-color: #d8e6dd; /* Green color */
+    color: #064d18;
+    width: 42px;
+    height: 22px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 16px;
+    border: 1px;
+    border-color: #ABEFC6;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 10px;
+    
+  }

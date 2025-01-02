@@ -1,0 +1,27 @@
+.footer {
+     /* Dark background */
+    color: #4d4848;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Align logo and copyright to opposite ends */
+    align-items: center; /* Center vertically */
+  }
+  
+  .logo-container {
+    /* You can add styles for the logo container if needed */
+  }
+  
+  .logo {
+    /* Adjust size and other properties as needed */
+  }
+  
+  .copyright {
+    font-size: 14px; /* Adjust font size as needed */
+  }

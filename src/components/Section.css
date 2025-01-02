@@ -1,0 +1,109 @@
+.section-container {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.new-feature-banner {
+  margin-bottom: 10px;
+}
+
+.new-feature {
+  background-color: #e0e0ff;
+  color: #6200ea;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.team-dashboard-link {
+  color: #6200ea;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.team-dashboard-link:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.section-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.demo-button,
+.signup-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.demo-button {
+  background-color: white;
+  color: #6200ea;
+  border: 2px solid #6200ea;
+}
+
+.demo-button:hover {
+  background-color: #f2f2ff;
+}
+
+.signup-button {
+  background-color: #6200ea;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #4b00b3;
+}
+
+.screen-mockup {
+  /* 3:2 screen mockup */
+  text-align: justify;
+  margin-left: 10%;
+  position: relative;
+  left: -80%;
+  width: 60rem;
+  height: 560px;
+  overflow: hidden;
+
+  /* Gray/900 */
+  border: 8px solid #101828;
+  border-bottom: 0px;
+  border-radius: 12px;
+
+  /* Mockup shadow */
+
+
+  /* Gray/900 */
+  background: #101828;
+  /* Shadow/3xl */
+  box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+
+  border-radius: 12px;
+}
+
+.screen-mockup img {
+  width: 1216px;
+  height: 810px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  object-fit: scale-down;
+}

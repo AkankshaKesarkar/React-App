@@ -1,0 +1,55 @@
+.section-two-container {
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .brands-container {
+    margin-bottom: 2rem;
+  }
+  
+  .brands-text {
+    font-size: 1rem;
+    color: #6c6c6c;
+  }
+  
+  .brands-logos {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  
+  .brand-logo {
+    width: 15%;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .features-container {
+    margin-top: 3rem;
+  }
+  
+  .features-title {
+    color: #9b59b6;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .features-heading {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-top: 0.5rem;
+  }
+  
+  .features-description {
+    font-size: 2rem;
+    color: #6c6c6c;
+    margin-top: 1rem;
+  }
+  

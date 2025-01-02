@@ -1,0 +1,39 @@
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 5px;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-details {
+    text-align: left;
+  }
+  
+  .author-name {
+    font-weight: bold;
+  }

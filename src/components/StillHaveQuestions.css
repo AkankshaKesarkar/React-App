@@ -1,0 +1,69 @@
+.still-have-questions-container {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .team-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .team-images img {
+    position: absolute;
+    border: 1px solid silver;
+    background-color: #f0f0f0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+
+  .team-images #img1{
+    position: absolute;
+    z-index: 3;
+    left: 46%;
+    top: -10px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .team-images #img2{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+  }
+
+  .team-images #img3{
+    position: absolute;
+    z-index: 2;
+    left: 43%;
+  }
+  
+  .content {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .get-in-touch-button {
+    background-color: #673ab7; /* Purple color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
